@@ -1,6 +1,5 @@
 # Python Notes
 
-
 ### Python memory management with function scoping
 
 scope defines the area of a program in which you can access that variable.
@@ -65,3 +64,8 @@ if __name__ == '__main__':
 ```
 
 Converted it to a python decorator that can be imported from memory.py to be used with any function in python script. 
+
+## range 
+
+range is very useful, it can even be used in bisect functions.  The strength is that it can be reated in O(1) time compared to a python list because it is a range iterator.
+But range allows O(1) access to elements in the range.
